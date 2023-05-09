@@ -15,3 +15,4 @@ print("")
 print("[검색]")
 a = input("장바구니에서 확인하고자 하는 상품은? ")
 print(f'{a}은(는) {shopping_bag[a]}개 담겨있습니다.')
+
