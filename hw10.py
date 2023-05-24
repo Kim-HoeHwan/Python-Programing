@@ -29,7 +29,7 @@ def load_scores():
     return None
 
 def print_scores(scores):
-    print("[점수 출력]")
+    print("\n[점수 출력]")
     print("개인점수:", end=" ")
     for score in scores:
         print(score, end=" ")
@@ -38,6 +38,7 @@ def print_scores(scores):
     print("평균:", average)
 
 loaded_scores = load_scores()
+
 if loaded_scores is None:
     print("[점수 입력]")
     scores = input_scores()
